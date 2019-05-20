@@ -5,15 +5,13 @@ import Shape from '../components/Shape';
 
 export default class NameTag extends PureComponent {
   state = {
-    fontColor: 'black',
-    backgroundColor: 'black',
-    text: ''
+    fontColor: '#000000',
+    backgroundColor: '#0433ff',
+    text: 'hi'
   }
 
   handleChange = ({ target }) => {
-    this.setState({
-      [target]: target.value
-    });
+    this.setState({ [target.name]: target.value });
   }
 
   render() {
