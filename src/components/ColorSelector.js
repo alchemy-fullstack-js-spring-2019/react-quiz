@@ -4,8 +4,14 @@ import PropTypes from 'prop-types';
 function ColorSelector({ fontColor, backgroundColor, handleChange }) {
   return (
     <>
-      <input type="color" name="fontColor" value={fontColor} onChange={handleChange} />
-      <input type="color" name="backgroundColor" value={backgroundColor} onChange={handleChange} />
+      <section>
+        <span>Font Color: </span>
+        <input type="color" name="fontColor" value={fontColor} onChange={handleChange} />
+      </section>
+      <section>
+        <span> Background Color</span>
+        <input type="color" name="backgroundColor" value={backgroundColor} onChange={handleChange} />
+      </section>
     </>
   );
 }

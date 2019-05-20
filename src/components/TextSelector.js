@@ -3,7 +3,10 @@ import PropTypes from 'prop-types';
 
 function TextSelector({ text, handleChange }) {
   return (
-    <input type="text" name="text" value={text} onChange={handleChange} />
+    <section>
+      <span>Text Input: </span>
+      <input type="text" name="text" value={text} onChange={handleChange} />
+    </section>
   );
 }
 
