@@ -1,39 +1,19 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-export default class Shape extends PureComponent({ name, color, backgroundColor }) {
-  state = {
-    backgroundColor,
-    name,
-    color
-  }
-  addColors(color, backgroundColor) {
-    this.setState(state => {
-      return {
-        color: color,
-        backgroundColor: backgroundColor
-      };
-    });
-  }
-  render() {
-    const {
-      color,
-      backgroundColor,
-      name
-    } = this.state;
+function Shape({ name, color, backgroundColor }) {
+  const textStyle = {
+    color: color,
+    width: '100px',
+    height: '100px',
+    backgroundColor: backgroundColor
+  };
 
-    const textStyle = {
-      color: color,
-      width: '100px',
-      height: '100px',
-      backgroundColor: backgroundColor
-    };
-    return (
-      <div style={textStyle}>
-        <h1>{name}</h1>
-      </div>
-    );
-  }
+  return (
+    <div style={textStyle}>
+      <h1>{name}</h1>
+    </div>
+  );
 }
 
 Shape.propTypes = {
@@ -42,4 +22,5 @@ Shape.propTypes = {
   backgroundColor: PropTypes.string.isRequired
 };
 
+export default Shape;
 
