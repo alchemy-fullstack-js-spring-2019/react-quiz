@@ -1,6 +1,8 @@
 import React from 'react';
-import NameTag from './NameTag';
+import TextSelector from './TextSelector';
+import ColorSelector from './ColorSelector';
 
 export default function App() {
-  return <NameTag />;
+  return <TextSelector />;
+  return <ColorSelector />;
 }
