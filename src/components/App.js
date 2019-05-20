@@ -3,7 +3,9 @@ import NameTag from './NameTag';
 
 export default function App() {
   return (
-    <NameTag />
-    // <h1>Working!</h1>
+    <>
+      <h1>Nametag Maker</h1>
+      <NameTag />
+    </>
   );
 }
