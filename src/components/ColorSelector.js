@@ -7,21 +7,27 @@ export default class ColorSelector extends PureComponent {
   };
 
   state = {
-    color: 'red',
-    backgroundColor: 'black'
+    color: '#000000',
+    backgroundColor: '#FFFFFF'
   };
 
   handleChange = ({ target }) => {
     this.setState({ [target.name]: target.value });
     console.log(this.state);
-    this.props.addColors({ color: this.state.color, backgroundColor: this.state.backgroundColor });
+    this.props.addColors(this.state);
   }
 
   render() {
     return (
       <>
-        <input type='color' name='color' value={this.state.color} onChange={this.handleChange} />
-        <input type='color' name='backgroundColor' value={this.state.backgroundColor} onChange={this.handleChange} />
+        <p>
+          text color
+          <input type='color' name='color' value={this.state.color} onChange={this.handleChange} />
+        </p>
+        <p>
+          background color 
+          <input type='color' name='backgroundColor' value={this.state.backgroundColor} onChange={this.handleChange} />
+        </p>
       </>
     );
   }

@@ -2,17 +2,23 @@
 
 exports[`ColorSelector ColorSelector 1`] = `
 <Fragment>
-  <input
-    name="color"
-    onChange={[Function]}
-    type="color"
-    value="red"
-  />
-  <input
-    name="backgroundColor"
-    onChange={[Function]}
-    type="color"
-    value="black"
-  />
+  <p>
+    text color
+    <input
+      name="color"
+      onChange={[Function]}
+      type="color"
+      value="#000000"
+    />
+  </p>
+  <p>
+    background color
+    <input
+      name="backgroundColor"
+      onChange={[Function]}
+      type="color"
+      value="#FFFFFF"
+    />
+  </p>
 </Fragment>
 `;

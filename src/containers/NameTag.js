@@ -8,15 +8,15 @@ export default class NameTag extends PureComponent {
 
   state = {
     text: 'hello',
-    color: 'red',
-    backgroundColor: 'black'
+    color: '#000000',
+    backgroundColor: '#FFFFFF'
   }
 
   addText = text => {
     this.setState({ text });
   }
 
-  addColors = (color, backgroundColor) => {
+  addColors = ({ color, backgroundColor }) => {
     this.setState({ color, backgroundColor });
   }
 
