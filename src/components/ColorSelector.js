@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function ColorSelector({ textColorHandler, blockColorHandler }) {
+function ColorSelector({ textColorHandler, bgColorHandler }) {
   return (
     <>
       <input name="textColor" type="color" onChange={() => textColorHandler()} />
-      <input name="textColor" type="color" onChange={() => blockColorHandler()} />
+      <input name="textColor" type="color" onChange={() => bgColorHandler()} />
     </>
   );
 }
