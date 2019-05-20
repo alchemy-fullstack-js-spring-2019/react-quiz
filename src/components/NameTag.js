@@ -19,8 +19,7 @@ export default class NameTag extends PureComponent {
       <>
         <TextSelector change={this.handleChange} text={this.state.text} />
         <ColorSelector change={this.handleChange} color={this.state.color} backgroundColor={this.state.backgroundColor} />
-        {/* <Shape text={this.state.text} color={this.state.color} backgroundColor={this.state.backgroundColor}/> */}
-        <p style={{ color: this.state.color, background: this.state.backgroundColor }}>{this.state.text}</p>
+        <Shape text={this.state.text} color={this.state.color} backgroundColor={this.state.backgroundColor}/>
       </>
     );
   }
