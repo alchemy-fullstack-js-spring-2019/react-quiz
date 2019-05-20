@@ -29,7 +29,7 @@ export default class NameTag extends PureComponent {
 
     return (
       <>
-        <TextSelector handleChange={this.selectText} />
+        <TextSelector textHandler={this.selectText} />
         <ColorSelector handleChange={this.selectBackgroundColor} />
         <Shape text={text} backgroundColor={backgroundColor} />
       </>
