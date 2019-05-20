@@ -17,6 +17,7 @@ export default class TextFormatter extends PureComponent {
     e.preventDefault();
     this.setState({ message: this.state.text });
     this.setState({ text: '' });
+    console.log(this.state);
 
   }
   handleTextChange = ({ target }) => {
