@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component Renders an App 1`] = `
+<Fragment>
+  <h1>
+    Font, Color, Shape
+  </h1>
+  <TextSelector
+    onChange={[Function]}
+    text=""
+  />
+  <ColorSelector
+    backgroundColor=""
+    onChange={[Function]}
+  />
+  <Shape
+    onChange={[Function]}
+    text=""
+  />
+</Fragment>
+`;

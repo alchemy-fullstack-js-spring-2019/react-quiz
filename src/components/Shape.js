@@ -1,10 +1,12 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 function Shape({ text, color, backgroundColor }) {
   const shapeStyle = {
     width: '100px',
-    height: '100px'
+    height: '100px',
+    backgroundColor: backgroundColor,
+    color: color
   };
 
   return (
