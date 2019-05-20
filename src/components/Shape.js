@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 function Shape({ text, color, backgroundColor }) {
   const shapeStyle = {
     width: '100px',
-    heihgt: '100px'
+    height: '100px'
   };
 
   return (
