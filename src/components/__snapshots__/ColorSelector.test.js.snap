@@ -2,23 +2,19 @@
 
 exports[`Color Input Component renders Color selector 1`] = `
 <div>
+  TEXT COLOR: 
   <input
     id="color"
     name="color"
     onChange={[Function]}
     type="color"
-    value="blue"
-  >
-    Text Color
-  </input>
+  />
+  BACKGROUND COLOR: 
   <input
     id="backgroundColor"
     name="backgroundColor"
     onChange={[Function]}
     type="color"
-    value="green"
-  >
-    Background Color
-  </input>
+  />
 </div>
 `;
