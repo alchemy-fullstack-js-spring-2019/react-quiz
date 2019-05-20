@@ -3,12 +3,15 @@ import PropTypes from 'prop-types';
 
 function TextSelector({ text, handleChange }) {
   return (
-    <input
-      type="text"
-      name="text"
-      value={ text }
-      onInput={ handleChange }
-    />
+    <label>
+      Text Input:{ ' ' }
+      <input
+        type="text"
+        name="text"
+        value={ text }
+        onInput={ handleChange }
+      />
+    </label>
   );
 }
 
