@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shape Component renders shape 1`] = `
+<div
+  style={
+    Object {
+      "height": "100px",
+      "width": "100px",
+    }
+  }
+>
+  <p
+    style={
+      Object {
+        "backgroundColor": "green",
+        "color": "blue",
+      }
+    }
+  >
+    string
+  </p>
+</div>
+`;
