@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Shape({ text, color, backgroundColor }) {
+function Shape({ text, fontColor, backgroundColor }) {
   const shapeStyle = {
     width: '100px',
     height: '100px',
     backgroundColor: backgroundColor,
-    color: color
+    fontColor: color
   };
 
   return (
@@ -18,7 +18,7 @@ function Shape({ text, color, backgroundColor }) {
 
 Shape.propTypes = {
   text: PropTypes.string.isRequired,
-  color: PropTypes.string.isRequired,
+  fontColor: PropTypes.string.isRequired,
   backgroundColor: PropTypes.string.isRequired
 };
 

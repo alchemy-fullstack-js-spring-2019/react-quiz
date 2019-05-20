@@ -14,13 +14,13 @@ class App extends PureComponent {
     this.setState({ [target.name]: target.value })
   }
   render() {
-    const { text, color, backgroundColor } = this.state;
+    const { text, fontColor, backgroundColor } = this.state;
     return (
       <>
         <h1>Font, Color, Shape</h1>
         <TextSelector text={text} onChange={this.onChange} />
         <ColorSelector color={color} backgroundColor={backgroundColor} onChange={this.onChange} />
-        <Shape text={text} color={color} onChange={this.onChange} />
+        <Shape text={text} fontColor={fontColor} onChange={this.onChange} />
       </>
     );
   }
