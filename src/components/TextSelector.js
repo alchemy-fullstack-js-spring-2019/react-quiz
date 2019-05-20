@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 function TextSelector({ inputTextHandler }) {
   return(
     <>
-      <input name='inputText' onChange={() => inputTextHandler()} />
+      <input name='text' onChange={() => inputTextHandler()} />
     </>
   )
 }

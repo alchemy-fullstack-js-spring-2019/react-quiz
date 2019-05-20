@@ -10,13 +10,26 @@ export default class NameTag extends PureComponent {
     backgroundColor: 'white'
   }
 
+  inputTextHandler = ({ target }) => {
+    this.setState({ [target.name]: target.value });
+  }
+  
+  textColorHandler = ({ target }) => {
+    this.setState({ [target.name]: target.value });
+  }
+
+  bgColorHandler = ({ target }) => {
+    this.setState({ [target.name]: target.value });
+  }
+
+
   render() {
     const { text, color, backgroundColor } = this.state;
 
     return (
       <>
         <TextSelector inputTextHandler={this.inputTextHandler}/>
-        <ColorSelector bgColorHandler={this.bgColorHandler}/>
+        <ColorSelector textColorHandler={this.textColorHandler} bgColorHandler={this.bgColorHandler}/>
         <Shape text={text} color={color} backgroundColor={backgroundColor} />
       </>
     );

@@ -5,7 +5,7 @@ function Shape({ text, color, backgroundColor }) {
   return(
     <section>
       <p style={{ color:{color} }}>{text}</p>
-      <div style={{ width: '100px', height: '100px', backgroundColor={backgroundColor}}}></div>
+      <div style={{ width: '100px', height: '100px', backgroundColor:{backgroundColor}}}></div>
     </section>
   )
 }
