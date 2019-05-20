@@ -19,7 +19,7 @@ export default class ColorSelector extends PureComponent {
   }
 
   handleChange = ({ target }) => {
-    this.setState({ [target.textColor]: target.value });
+    this.setState({ [target.name]: target.value });
   }
 
   render() {
