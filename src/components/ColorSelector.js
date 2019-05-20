@@ -14,7 +14,7 @@ function ColorSelector({ color, backgroundColor, onChange }) {
 
 ColorSelector.propTypes = {
   color: PropTypes.string.isRequired,
-  onChange: PropTypes.string.isRequired,
+  onChange: PropTypes.func.isRequired,
   backgroundColor: PropTypes.string.isRequired
 };
 
