@@ -1,7 +1,7 @@
 {
   "name": "react-quiz",
   "version": "1.0.0",
-  "description": "",
+  "description": "* `App.js`\r   * Uses `NameTag`\r * `NameTag.js`\r   * Container component\r   * contains state\r   * Uses the other components\r * `ColorSelector.js`\r   * Presentational/Functional component\r   * Color input to change font color\r   * Color input to change background color\r * `TextSelector.js`\r   * Presentational/Functional component\r   * Text input\r * `Shape.js`\r   * Presentational/Functional component\r   * takes `text`, `color` and `backgroundColor` props\r   * Should display `text`\r   * Should change `color` and `backgroundColor` based on props\r   * HINT: Use `<div style={{ width: '100px', height: '100px' }}>` to pass in styles",
   "main": "src/index.js",
   "jest": {
     "setupFilesAfterEnv": [
@@ -22,7 +22,7 @@
     "build": "webpack -p --devtool source-map"
   },
   "keywords": [],
-  "author": "",
+  "author": "Cheri Portman",
   "license": "ISC",
   "dependencies": {
     "react": "^16.8.6",
@@ -56,5 +56,13 @@
     "webpack": "^4.32.0",
     "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^3.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CheriPortman/react-quiz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CheriPortman/react-quiz/issues"
+  },
+  "homepage": "https://github.com/CheriPortman/react-quiz#readme"
 }
