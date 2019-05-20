@@ -1,8 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
-import App from './components/App';
+import NameTag from './containers/NameTag';
 
 render(
-  <App />,
+  <NameTag />,
   document.getElementById('root')
 );
