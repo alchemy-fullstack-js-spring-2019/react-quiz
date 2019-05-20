@@ -12,16 +12,19 @@ export default class NameTag extends PureComponent {
     backgroundColor: 'black'
   }
 
+  addText = text => {
+    this.setState({ text });
+  }
+
   render() {
     const { text, color, backgroundColor } = this.state;
     return (
       <>
         <TextSelector addText={this.addText}/>
-        <ColorSelector addColors={this.addColors}/>
+        {/* <ColorSelector addColors={this.addColors}/> */}
         <Shape text={text} color={color} backgroundColor={backgroundColor} />
       </>
     );
   }
-
 }
 
