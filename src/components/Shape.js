@@ -17,9 +17,9 @@ function Shape({ text, textColor, backgroundColor }) {
 }
 
 Shape.propTypes = {
-  text: PropTypes.string.isRequired,
-  textColor: PropTypes.string.isRequired,
-  backgroundColor: PropTypes.string.isRequired,
+  text: PropTypes.string,
+  textColor: PropTypes.string,
+  backgroundColor: PropTypes.string,
 };
 
 export default Shape;
