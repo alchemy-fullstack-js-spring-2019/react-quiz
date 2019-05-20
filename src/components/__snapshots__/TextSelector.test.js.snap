@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shape Component renders shape 1`] = `
+<div>
+  <input
+    id="text"
+    name="text"
+    onChange={[Function]}
+    type="text"
+    value="text"
+  />
+</div>
+`;
