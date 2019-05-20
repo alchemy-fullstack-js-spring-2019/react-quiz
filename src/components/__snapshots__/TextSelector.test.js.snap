@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextSelector component renders a TextSelector 1`] = `
+<input
+  name="text"
+  type="text"
+/>
+`;
