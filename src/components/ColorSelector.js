@@ -1,4 +1,16 @@
-//import React from 'react';
+import { Component } from 'react';
 
-const CC = console.log('I am ColorComponent');
-export default CC;
+export default class ColorSelector extends Component {
+  state = {
+    color: 'black',
+    backgroundColor: 'white'
+  }
+
+  colorHandler = color => {
+    this.setState(color);
+  }
+
+  backgroundColorHandler = backgroundColor => {
+    this.setState(backgroundColor);
+  }
+}
