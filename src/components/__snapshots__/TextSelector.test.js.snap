@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`textSelector component renders a snapshot 1`] = `
+<Fragment>
+  <input
+    name="text"
+    value="hello"
+  />
+</Fragment>
+`;

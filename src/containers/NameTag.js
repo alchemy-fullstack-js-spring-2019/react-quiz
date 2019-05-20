@@ -19,10 +19,10 @@ export default class NameTag extends PureComponent {
 
     return (
       <>
-        <ColorSelector color={color} backgroundColor={backgroundColor}/>
-        <TextSelector text={text} style={color}/>
+        <ColorSelector color={color} backgroundColor={backgroundColor} onChange={this.handleChange}/>
+        <TextSelector text={text} style={color} onChange={this.handleChange}/>
         <Shape text={text} />
-        <div>{text}</div>
+        <pre style={{ color }}>{text}</pre>
       </>
     );
   }
