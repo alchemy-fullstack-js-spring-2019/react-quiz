@@ -13,7 +13,7 @@ export default class TextSelector extends PureComponent {
   render() {
     const {
       text,
-      color
+      // color
     } = this.state;
 
     return (
