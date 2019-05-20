@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export default class ColorSelector extends PureComponent {
   static propTypes = {
-    addColor: PropTypes.func.isRequired
+    addColors: PropTypes.func.isRequired
   }
 
   state = {
@@ -13,7 +13,8 @@ export default class ColorSelector extends PureComponent {
 
   handleChange = ({ target }) => {
     this.setState({ [target.name]: target.value });
-    this.props.addColor({ hex: color });
+    const { color, backgroundColor } = this.state;
+    this.props.addColors({ color: color, backgroundColor: backgroundColor });
   } 
 
   render() {
