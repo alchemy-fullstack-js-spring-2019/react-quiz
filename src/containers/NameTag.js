@@ -8,7 +8,7 @@ export default class NameTag extends PureComponent {
   state = {
     color: '',
     backgroundColor: '',
-    text: ''
+    text: 'default text'
   }
 
   selectColor = color => {
