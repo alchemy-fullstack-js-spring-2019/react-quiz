@@ -1,8 +1,4 @@
-//container component
-//contains state
-//uses the other components
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
 import ColorSelector from './ColorSelector';
 import TextSelector from './TextSelector';
 import Shape from './Shape';
