@@ -1,8 +1,13 @@
 import React from 'react';
 import TextSelector from './TextSelector';
+import ColorSelector from './ColorSelector';
 
 export default function App() {
-  const text = 'hellow';
-  
-  return <TextSelector text={text} />
+
+  return(
+    <>
+      <TextSelector  />
+      <ColorSelector />
+    </>
+  ) 
 }
