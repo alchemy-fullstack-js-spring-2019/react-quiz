@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shape Shape 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": undefined,
+      "height": "100px",
+      "width": "100px",
+    }
+  }
+>
+  <p
+    style={
+      Object {
+        "color": undefined,
+      }
+    }
+  />
+</div>
+`;

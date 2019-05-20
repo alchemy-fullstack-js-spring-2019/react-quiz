@@ -7,8 +7,8 @@ export default class ColorSelector extends PureComponent {
   };
 
   state = {
-    color: '',
-    backgroundColor: ''
+    color: 'red',
+    backgroundColor: 'black'
   };
 
   handleChange = ({ target }) => {

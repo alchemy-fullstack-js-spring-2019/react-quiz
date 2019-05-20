@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextSelector TextSelector 1`] = `
+<input
+  name="text"
+  onChange={[Function]}
+  type="text"
+  value=""
+/>
+`;

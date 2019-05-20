@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorSelector ColorSelector 1`] = `
+<Fragment>
+  <input
+    name="color"
+    onChange={[Function]}
+    type="color"
+    value="red"
+  />
+  <input
+    name="backgroundColor"
+    onChange={[Function]}
+    type="color"
+    value="black"
+  />
+</Fragment>
+`;
