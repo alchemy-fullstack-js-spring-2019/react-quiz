@@ -1,10 +1,17 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 function Shape({ text, color, backgroundColor }) {
   return (
-    <section >
-      <input name="color" type="color" value={color} onChange={this.changeHandler} />
+    <section>
+      <input name="color" type="color" value={color}>{color}</input>
+      <div type="text" name="text" value={text}>{text}</div>
+      <div name="color" type="color" value={color}>{color}</div>
     </section>
   );
 }
+Shape.propTypes = {
+  text: PropTypes.string.isRequired,
+  color: PropTypes.string.isRequired,
+  backgroundColor: PropTypes.string.isRequired
+};
