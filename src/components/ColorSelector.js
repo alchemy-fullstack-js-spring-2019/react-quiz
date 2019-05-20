@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 
 export default function ColorSelector() {
 
+    // handleColor()
 
+    // handleBackgroundColor
   return (
         <>
             <form>
