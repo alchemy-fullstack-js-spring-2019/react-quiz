@@ -5,7 +5,7 @@ import styles from './Shape.css';
 function Shape({ text, color, backgroundColor }) {
   return (
     <div className={styles.Shape} style={{ backgroundColor: backgroundColor }}>
-      <h1 style={color}>{text}</h1>
+      <h1 style={{ color }}>{text}</h1>
     </div>
   );
 }

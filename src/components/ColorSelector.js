@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function ColorSelector({ color, backgroundColor }) {
+  
   return (
     <>
       <input name="color" type="color" value={color}></input>
