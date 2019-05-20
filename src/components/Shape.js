@@ -9,9 +9,7 @@ function Shape({ text, textColor, backgroundColor }) {
       backgroundColor: backgroundColor,
       color: textColor
     }}>
-      <p>
-        {text}
-      </p>
+      <pre style={{ color: textColor }}>Input text: {text}</pre>
     </div>
   );
 }
