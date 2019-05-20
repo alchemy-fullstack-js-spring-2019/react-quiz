@@ -6,7 +6,7 @@ function Shape({ text, color, backgroundColor }) {
     <section>
       <input name="color" type="color" value={color}>{color}</input>
       <div type="text" name="text" value={text}>{text}</div>
-      <div name="color" type="color" value={color}>{color}</div>
+      <div name="backgroundColor" type="color" value={backgroundColor}>{backgroundColor}</div>
     </section>
   );
 }
