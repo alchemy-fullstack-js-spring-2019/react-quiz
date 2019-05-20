@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`nameTag component renders the name tag 1`] = `
+<form>
+  <input
+    name="text"
+    type="text"
+    value=""
+  />
+  <input
+    name="color"
+    type="color"
+    value="#000000"
+  />
+  <p
+    style={
+      Object {
+        "color": "#000000",
+      }
+    }
+  />
+</form>
+`;
