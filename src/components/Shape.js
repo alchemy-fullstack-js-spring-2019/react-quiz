@@ -1,12 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from 'Shape.css';
-import TextSelector from './TextSelector';
+import styles from './Shape.css';
 
 function Shape({ text, color, backgroundColor }) {
   return (
     <div className={styles.Shape} style={{ backgroundColor: backgroundColor }}>
-      <TextSelector text={text} style={color}/>
+      <h1 style={color}>{text}</h1>
     </div>
   );
 }
