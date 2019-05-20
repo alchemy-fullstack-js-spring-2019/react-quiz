@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextSelector component renders a TextSelector 1`] = `
+<section>
+  <span>
+    Text Input: 
+  </span>
+  <input
+    name="text"
+    onChange={[MockFunction]}
+    type="text"
+    value="hello"
+  />
+</section>
+`;
