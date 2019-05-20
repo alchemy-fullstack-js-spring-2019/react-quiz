@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NameTag Component renders stuff 1`] = `
+<Fragment>
+  <TextInputForm
+    handleSubmit={[Function]}
+    handleTextChange={[Function]}
+    text=""
+  />
+  <ColorOptions
+    handleColorChange={[Function]}
+  />
+  <Shape
+    backgroundColor="purple"
+    color="purple"
+    text=""
+  />
+</Fragment>
+`;

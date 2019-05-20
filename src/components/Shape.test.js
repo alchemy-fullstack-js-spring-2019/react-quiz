@@ -5,7 +5,7 @@ import Shape from './Shape';
 describe('Shape', ()=>{
   it('renders stuff', ()=>{
     const wrapper =  shallow(<Shape text='test' color='green' backgroundColor='blue'/>);
-    expect(wrapper).toMachSnapshot;
+    expect(wrapper).toMatchSnapshot();
   });
 })
 ;

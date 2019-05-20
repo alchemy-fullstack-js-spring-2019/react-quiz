@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shape renders stuff 1`] = `
+<Fragment>
+  <h2>
+    Select color for box/text below
+  </h2>
+  <select
+    onChange={[Function]}
+  >
+    <option
+      value="green"
+    >
+      green
+    </option>
+    <option
+      value="blue"
+    >
+      blue
+    </option>
+  </select>
+</Fragment>
+`;

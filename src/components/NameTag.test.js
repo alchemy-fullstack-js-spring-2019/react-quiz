@@ -5,7 +5,7 @@ import NameTag from './NameTag';
 describe('NameTag Component', ()=>{
   it('renders stuff', ()=>{
     const wrapper =  shallow(<NameTag/>);
-    expect(wrapper).toMachSnapshot;
+    expect(wrapper).toMatchSnapshot();
   });
 })
 ;

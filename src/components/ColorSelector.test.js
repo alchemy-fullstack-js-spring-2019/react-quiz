@@ -5,7 +5,7 @@ import ColorSelector from './ColorSelector';
 describe('Shape', ()=>{
   it('renders stuff', ()=>{
     const wrapper =  shallow(<ColorSelector handleColorChange={()=>'work!'}/>);
-    expect(wrapper).toMachSnapshot;
+    expect(wrapper).toMatchSnapshot();
   });
 })
 ;

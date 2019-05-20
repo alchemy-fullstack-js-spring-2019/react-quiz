@@ -5,7 +5,7 @@ import App from './App';
 describe('App', ()=>{
   it('renders stuff', ()=>{
     const wrapper =  shallow(<App/>);
-    expect(wrapper).toMachSnapshot;
+    expect(wrapper).toMatchSnapshot();
   });
 })
 ;

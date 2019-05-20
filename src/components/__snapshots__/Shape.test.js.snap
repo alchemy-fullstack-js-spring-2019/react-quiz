@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shape renders stuff 1`] = `
+<Fragment>
+  <p
+    style={
+      Object {
+        "color": "green",
+      }
+    }
+  >
+    text:
+    test
+  </p>
+  <div
+    style={
+      Object {
+        "backgroundColor": "blue",
+        "height": "100px",
+        "width": "100px",
+      }
+    }
+  />
+</Fragment>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextSelector renders stuff 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    handleSubmit={[Function]}
+    onChange={[Function]}
+    value="test"
+  />
+  <button>
+    submit
+  </button>
+</form>
+`;
