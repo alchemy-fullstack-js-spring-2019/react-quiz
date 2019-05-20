@@ -5,7 +5,7 @@ export default function Shape({ text, color, backgroundColor }){
 
   return (
   <>
-  <p style={{ color:color }}>text:{text}</p>
+  <p style={{ fontColor: color }}>text:{text}</p>
   <div style={{ width:'100px', height:'100px', backgroundColor:backgroundColor }}></div>
   </>
   );

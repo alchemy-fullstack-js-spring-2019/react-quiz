@@ -2,13 +2,15 @@ import React, { PureComponent } from 'react';
 import TextSelector from './TextSelector';
 import Shape from './Shape';
 import ColorSelector from './ColorSelector';
+import FontColorSelector from './FontColorSelector';
 
 
 export default class TextFormatter extends PureComponent {
   state = {
     text: '',
     message: '',
-    color:'purple'
+    color:'purple',
+    fontColor:'black'
   }
 
   handleSubmit = (e) => {
@@ -25,9 +27,14 @@ export default class TextFormatter extends PureComponent {
     const color = target.value;
     this.setState({ color: color });
   }
+  handleFontColorChange = ({ target }) => {
+    const color = target.value;
+    this.setState({ fontColor: color });
+  }
 
   render() {
     const { 
+      fontColor,
       text,
       message,
       color } = this.state;
@@ -36,7 +43,8 @@ export default class TextFormatter extends PureComponent {
       <>
         <TextSelector text={text} handleTextChange={this.handleTextChange} handleSubmit={this.handleSubmit} />
         <ColorSelector handleColorChange={this.handleColorChange}/>
-        <Shape text={message} color={color} backgroundColor={color}/>
+        <FontColorSelector handleFontColorChange={this.handleFontColorChange}/>
+        <Shape text={message} color={fontColor} backgroundColor={color} />
 
       </>
     );
