@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextSelector component matches snapshot 1`] = `
+<Fragment>
+  <TextSelector
+    change={[Function]}
+    text=""
+  />
+  <ColorSelector
+    backgroundColor=""
+    change={[Function]}
+    color=""
+  />
+  <Shape
+    backgroundColor=""
+    color=""
+    text=""
+  />
+</Fragment>
+`;

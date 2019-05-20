@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextSelector component matches snapshot 1`] = `
+<div
+  style={
+    Object {
+      "background": "",
+      "border": "2px solid black",
+      "height": "200px",
+      "width": "400px",
+    }
+  }
+>
+  <p
+    style={
+      Object {
+        "color": "",
+      }
+    }
+  />
+</div>
+`;

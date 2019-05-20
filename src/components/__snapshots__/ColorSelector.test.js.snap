@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextSelector component matches snapshot 1`] = `
+<Fragment>
+  <p>
+    Text Color: 
+  </p>
+  <input
+    name="color"
+    onChange={[MockFunction]}
+    type="color"
+    value=""
+  />
+  <p>
+    Background Color: 
+  </p>
+  <input
+    name="backgroundColor"
+    onChange={[MockFunction]}
+    type="color"
+    value=""
+  />
+</Fragment>
+`;
