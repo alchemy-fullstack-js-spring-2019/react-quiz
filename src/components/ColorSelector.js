@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import TextSelector from './TextSelector';
+// import TextSelector from './TextSelector';
 
 function ColorSelector({ color }) {
   return (
@@ -16,4 +16,4 @@ ColorSelector.propTypes = {
   backgroundColor: PropTypes.string.isRequired
 }
 
-export default ColorSelector
+export default ColorSelector;

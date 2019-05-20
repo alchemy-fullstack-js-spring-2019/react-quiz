@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import ColorSelector from './ColorSelector';
-import Shape from './Shape';
-import TextSelector from './TextSelector';
+// import Shape from './Shape';
+// import TextSelector from './TextSelector';
 
 export default class NameTag extends PureComponent {
   state = {
