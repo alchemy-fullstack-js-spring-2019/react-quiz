@@ -1,13 +1,19 @@
 import React, { PureComponent } from 'react';
+import PropTypes from 'prop-types';
 
 export default class ColorSelector extends PureComponent {
+  static propTypes = {
+    addColor: PropTypes.func.isRequired
+  }
+
   state = {
-    color: '',
-    backgroundColor: ''
+    color: '#000000',
+    backgroundColor: '#000000'
   }
 
   handleChange = ({ target }) => {
     this.setState({ [target.name]: target.value });
+    this.props.addColor({ hex: color });
   } 
 
   render() {
