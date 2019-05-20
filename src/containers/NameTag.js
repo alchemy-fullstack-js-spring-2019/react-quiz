@@ -1,24 +1,25 @@
 import React, { PureComponent } from 'react';
 import TextSelector from '../components/TextSelector';
-import ColorSelector from '../components/ColorSelector';
-import Shape from '../components/Shape';
+// import ColorSelector from '../components/ColorSelector';
+// import Shape from '../components/Shape';
 
-export default class NameTage extends PureComponent {
+export default class NameTag extends PureComponent {
   state = {
     text: '',
     color: '#FFF',
     background: '#000'
   }
 
-  handleChange = ({ target }) => ({ [target.value]: target.value })
+  handleChange = ({ target }) => this.setState({ [target.name]: target.value })
 
   render() {
     return (
       <>
-        <TextSelector handleChange={ this.handleChange }/>
-        <ColorSelector handleChange={ this.handleChange } />
-        <Shape { ...this.state } />
+        <TextSelector text={ this.state.text } handleChange={ this.handleChange }/>
         </>
     );
   }
 }
+
+// <ColorSelector color={ this.state.color } background={ this.state.background } handleChange={ this.handleChange } />
+// <Shape { ...this.state } />

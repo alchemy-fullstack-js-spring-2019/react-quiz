@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextSelector component renders the TextSelector 1`] = `
+<input
+  name="text"
+  onInput={[Function]}
+  type="text"
+  value="test"
+/>
+`;
