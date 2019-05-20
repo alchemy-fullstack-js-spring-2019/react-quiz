@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorSelector component renders the ColorSelector 1`] = `
+<Fragment>
+  <div>
+    <label>
+      Text Color:
+       
+      <input
+        name="color"
+        onChange={[Function]}
+        type="color"
+        value="#000000"
+      />
+    </label>
+  </div>
+  <div>
+    <label>
+      Background Color:
+       
+      <input
+        name="background"
+        onChange={[Function]}
+        type="color"
+        value="#FFFFFF"
+      />
+    </label>
+  </div>
+</Fragment>
+`;
