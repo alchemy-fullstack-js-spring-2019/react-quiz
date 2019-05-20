@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shape component renders the Shape 1`] = `
+<div
+  style={
+    Object {
+      "background": "#111111",
+      "box-sizing": "border-box",
+      "color": "#AAAAAA",
+      "display": "inline-block",
+      "font-family": "Verdana, sans-serif",
+      "font-size": "2rem",
+      "margin": "1em",
+      "max-width": "90vw",
+      "overflow-wrap": "break-word",
+      "padding": "1em 2em",
+      "text-align": "center",
+    }
+  }
+>
+  <strong>
+    poop
+  </strong>
+</div>
+`;
