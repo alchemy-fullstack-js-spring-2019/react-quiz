@@ -1,7 +1,7 @@
 {
   "name": "react-quiz",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Components",
   "main": "src/index.js",
   "jest": {
     "setupFilesAfterEnv": [
@@ -56,5 +56,13 @@
     "webpack": "^4.32.0",
     "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^3.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meganamarshall/react-quiz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meganamarshall/react-quiz/issues"
+  },
+  "homepage": "https://github.com/meganamarshall/react-quiz#readme"
 }
