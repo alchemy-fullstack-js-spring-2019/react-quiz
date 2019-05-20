@@ -1,23 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`nameTag component renders the name tag 1`] = `
-<form>
+<section>
   <input
     name="text"
+    onChange={[Function]}
     type="text"
     value=""
   />
   <input
     name="color"
+    onChange={[Function]}
     type="color"
-    value="#000000"
+    value=""
   />
-  <p
-    style={
-      Object {
-        "color": "#000000",
-      }
+  <div
+    className={
+      Array [
+        [Function],
+      ]
     }
   />
-</form>
+</section>
 `;
