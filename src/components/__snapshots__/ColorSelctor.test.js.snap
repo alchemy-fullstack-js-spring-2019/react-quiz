@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorSelector Component renders the color 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    name="textColor"
+    onChange={[Function]}
+    type="color"
+    value="#000001"
+  />
+  <input
+    name="color"
+    onChange={[Function]}
+    type="color"
+    value="#000000"
+  />
+</form>
+`;
