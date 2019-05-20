@@ -1,22 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`TextSelector component matches snapshot 1`] = `
-<div
-  style={
-    Object {
-      "background": "",
-      "border": "2px solid black",
-      "height": "200px",
-      "width": "400px",
-    }
-  }
->
-  <p
+<Fragment>
+  <h2>
+    Your text: 
+  </h2>
+  <div
     style={
       Object {
-        "color": "",
+        "alignItems": "center",
+        "background": "",
+        "border": "2px solid black",
+        "display": "flex",
+        "height": "200px",
+        "justifyContent": "center",
+        "width": "400px",
       }
     }
-  />
-</div>
+  >
+    <p
+      style={
+        Object {
+          "color": "",
+          "fontSize": "80px",
+        }
+      }
+    />
+  </div>
+</Fragment>
 `;

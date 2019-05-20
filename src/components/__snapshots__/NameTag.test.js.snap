@@ -11,6 +11,7 @@ exports[`TextSelector component matches snapshot 1`] = `
     change={[Function]}
     color=""
   />
+  <hr />
   <Shape
     backgroundColor=""
     color=""
