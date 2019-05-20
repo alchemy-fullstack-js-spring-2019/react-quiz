@@ -7,6 +7,7 @@ export default class NameTag extends PureComponent {
   state = {
     text: '',
     color: '',
+    backgroundColor: ''
   }
   changeHandler = ({ target }) => {
     this.setState({ [target.name]: target.value });
@@ -16,11 +17,10 @@ export default class NameTag extends PureComponent {
     const { text, color } = this.state;
 
     return (
-      <section className={NameTag}>
+      <section >
         <input type="text" name="text" value={text} onChange={this.changeHandler} />  
         <input name="color" type="color" value={color} onChange={this.changeHandler} />
-        <input name="color" type="color" value={color} onChange={this.changeHandler} />
-        <div className={[color]}>{text}</div>
+        <div className={[ColorSelector]}>{text}</div>
 
       </section>
     );
