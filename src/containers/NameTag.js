@@ -3,6 +3,8 @@ function NameTag() {
 }
 
 export default NameTag;
+
+//
 // import React, { PureComponent } from 'react';
 // import ColorSelector from '../components/ColorSelector';
 // import TextSelector from '../components/TextSelector';
